@@ -115,7 +115,8 @@ const App = () => {
                                          deleteTask={deleteTask} />
 
                                          <Done tasks={tasks.done} 
-                                         filterTasks={filterTasks} /> 
+                                         filterTasks={filterTasks} 
+                                         deleteTask={deleteTask}/> 
 
                                          </div> 
                                          </div> 
