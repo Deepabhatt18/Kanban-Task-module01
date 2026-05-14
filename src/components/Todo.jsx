@@ -1,6 +1,6 @@
 import DraggableTask from "./DraggableTask.jsx";
 import DroppableColumn from "./DroppableColumn.jsx"; 
-import TaskCard from "./TaskCard"; 
+import TaskCard from "./TaskCard.jsx"; 
 const ToDo = ({ tasks, filterTasks, toggleEdit, updateTask, deleteTask, moveToProgress }) => { 
     return (
         <div className="todo">

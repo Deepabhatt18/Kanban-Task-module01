@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { DndContext } from "@dnd-kit/core"; 
-import ToDo from "./components/ToDo"; 
-import Progress from "./components/Progress"; 
-import Done from "./components/Done"; 
+import ToDo from "./components/Todo.jsx"; 
+import Progress from "./components/progress.jsx"; 
+import Done from "./components/Done.jsx"; 
 const App = () => { 
     const [input, setInput] = useState(""); 
     const [priority, setPriority] = useState("low"); 
@@ -116,7 +116,7 @@ const App = () => {
 
                                          <Done tasks={tasks.done} 
                                          filterTasks={filterTasks} /> 
-                                         
+
                                          </div> 
                                          </div> 
                                          </DndContext> 
